@@ -1,0 +1,88 @@
+@font-face {
+    font-family: Work Sans;
+    src: url("./fonts/WorkSans-VariableFont_wght.ttf");
+  }
+*{
+    box-sizing: border-box;
+    border: 0;
+    font-family: Work Sans;
+  }
+  .btn{
+    display: flex;
+    width: 329px;
+    padding: 15px 50px !important;
+    outline: 0 !important;
+    border: 0 !important;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    border-radius: 20px !important;
+    background-color: #A259FF !important;
+  }
+  input{
+    display: flex;
+    height: 60px;
+    width: 100%;
+    padding: 16px 0px 16px 20px;
+    align-items: center;
+    gap: 12px;
+    align-self: stretch;
+    border-radius: 20px;
+    border: #858584;
+    background:#FFF;
+  }
+  .container1{
+    display: flex;
+    padding: 60px;
+    align-items: center;
+    gap: 80px;
+    background: #3B3B3B;
+  }
+  span{
+    color: #FFF !important;
+    font-family: Work Sans;
+    font-size: 16px;
+  }
+  a{
+    text-decoration: none !important;
+  }
+  h1 {
+    color: #FFF !important;
+    font-family: Work Sans;
+    font-size: 67px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  h4{
+    color: #CCC !important;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+  }
+  .btn-1{
+    display: flex;
+    height: 60px;
+    padding: 0px 50px;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 12px;
+    border-radius: 20px;
+    background: #A259FF;
+    color: #FFF;
+    position: absolute;
+    right: 0;
+  }
+  .btn-2{
+    height: 60px;
+    border-radius: 20px;
+    background: #A259FF;
+    color: #FFF;
+  }
+  .hr{
+    height: 1px;
+    background-color: #858584;
+  }
+  
